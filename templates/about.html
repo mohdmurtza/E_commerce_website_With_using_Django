@@ -1,0 +1,46 @@
+{% extends 'basic.html' %}
+
+{% block title %} Title of About {% endblock %}
+
+{% block css %}
+.owner{
+  text-align: center;
+}
+.owner img{
+  width: 11rem;
+  height: 19rem;
+  border-radius: 5rem;
+}
+h1, h1{
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+}
+{%endblock%}
+{% block body %}
+
+
+{% load static %}
+    <div class="p-5 mb-4 bg-light rounded-3 mx-4">
+      <div class="container-fluid py-5">
+        <h1>Shopy.com</h1>
+        <p>Shopy.com is an Indian multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence. It has been referred to as "one of the most influential economic and cultural forces in the world",and is one of the world's most valuable brands. It is one of the Big Five Indian information technology companies, alongside Alphabet, Apple, Meta, and Microsoft. </p>
+          <br>
+
+         <p> Amazon was founded by Mohd Murtza from his Small Shop in Mangol Puri, Delhi, on September,4 2021. Initially an online marketplace for Electorics, it has expanded into a multitude of product categories, a strategy that has earned it the moniker The Everything Store. . Its other subsidiaries include Ring, Twitch, IMDb, and Whole Foods Market. Its acquisition of Whole Foods in August 2022 for US$13.4 million substantially increased its footprint as a physical retailer.</p>
+          <br>
+          <p> Shopy.com has earned a reputation as a disruptor of well-established industries through technological innovation and "aggressive" reinvestment of profits into capital expenditures. As of 2022, it is the world's largest online retailer and marketplace, smart speaker provider, and Internet company as measured by revenue and market share.</p>
+          <br>
+        
+        
+    <div class="owner">
+      <img  src="{% static 'img/owner.jpg'%}" alt="">
+      <h3>Founder</h3>
+      <p>Shopy.com</p>
+    </div>
+
+    <footer class="pt-3 mt-4 text-muted border-top">
+      © 2022
+    </footer>
+
+  {% endblock %}
